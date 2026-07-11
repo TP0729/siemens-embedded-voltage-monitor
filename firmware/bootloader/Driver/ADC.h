@@ -1,0 +1,12 @@
+#ifndef  _ADC_H
+#define  _ADC_H
+#include "All_HeadFile.h"
+
+void ADC_Init(void);
+uint16_t Get_adc_value(void);
+float ADC_Volatge(uint16_t ADC_VALUE);
+float PC0_Vol_RV(void);
+void ADC_OLED_Init(void);
+void OLED_ADC_Show_V(void);
+
+#endif

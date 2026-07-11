@@ -1,0 +1,40 @@
+# Build outputs
+Output/
+output/
+Listings/
+list/
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.elf
+*.map
+*.lst
+*.lnp
+*.htm
+*.html
+*.bak
+*.tmp
+*.log
+
+# Keil local user/session files
+*.uvgui.*
+*.uvguix.*
+*.uvopt
+*.uvoptx
+
+# IAR local/debug outputs
+Debug/
+Release/
+settings/
+*.dbgdt
+*.wsdt
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Keep curated binaries in binaries/
+!binaries/*.hex
